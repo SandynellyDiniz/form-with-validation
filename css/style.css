@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body{
+    padding: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    gap: .5rem;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+input, select , textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3e2217;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+button{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    background-color: #3e2217;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
